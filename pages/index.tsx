@@ -1,14 +1,13 @@
-import { Space } from '@mantine/core';
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle';
 import { Features } from '../components/Features';
 import { useStyles } from '../components/Features/styles';
 import { Hero } from '../components/Hero';
+import { DotsContainer } from '../components/Container';
 
 export default function HomePage() {
   const { classes } = useStyles();
 
   return (
-    <>
+    <DotsContainer pb={120}>
       <Hero />
       {/*<Problem*/}
       {/*  supTitle="Problem"*/}
@@ -78,8 +77,7 @@ export default function HomePage() {
       {/*  description=""*/}
       {/*  features={[]}*/}
       {/*/>*/}
-      <ColorSchemeToggle />
-      <Space h="xl" />
-    </>
+      {/*<ColorSchemeToggle />*/}
+    </DotsContainer>
   );
 }
