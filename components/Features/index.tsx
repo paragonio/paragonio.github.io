@@ -1,4 +1,4 @@
-import { Image, Text, Container, ThemeIcon, Title, SimpleGrid } from '@mantine/core';
+import { Text, Container, ThemeIcon, Title, SimpleGrid } from '@mantine/core';
 
 import IMAGES from './images';
 import { useStyles } from './styles';
@@ -48,10 +48,11 @@ export function Features(props: Props) {
 
 const Feature: React.FC<Feature> = (feature) => {
   const { classes } = useStyles();
+  const SVG = IMAGES[feature.image];
   return (
     <div className={classes.item} key={feature.image}>
       <ThemeIcon variant="light" className={classes.itemIcon} size={60} radius="md">
-        <Image src={IMAGES[feature.image]} />
+        {SVG && <SVG />}
       </ThemeIcon>
 
       <div>

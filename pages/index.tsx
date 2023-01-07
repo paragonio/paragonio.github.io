@@ -9,24 +9,6 @@ export default function HomePage() {
   return (
     <DotsContainer pb={120}>
       <Hero />
-      {/*<Problem*/}
-      {/*  supTitle="Problem"*/}
-      {/*  content={*/}
-      {/*    <>*/}
-      {/*      You know hiring is a hard problem — especially in this economy — but where do you even start?*/}
-      {/*      How do you convinced the 10x engineer to join your company?*/}
-      {/*      Existing hiring strategies focus on increasing top of the funnel and */}
-      {/*      less about converting  */}
-      {/*      Juggling product releases and growth is hard enough.*/}
-      {/*      And then hiring is left as a nebulous priority with no clear owner.*/}
-      {/*      <Space h="xl" />*/}
-      {/*      What if you could optimize the interview experience to maximize your odds of recruiting the 10x engineer?*/}
-      {/*      You’d boost your company’s profitability, keep customers around longer,*/}
-      {/*      and demystify the reasons why people leave your product.*/}
-      {/*      So if you want to recruit the best of the best, let’s begin.*/}
-      {/*    </>*/}
-      {/*  }*/}
-      {/*/>*/}
       <Features
         supTitle="Process"
         title={
@@ -71,13 +53,6 @@ export default function HomePage() {
           ] as const
         }
       />
-      {/*<Features*/}
-      {/*  supTitle="Customers"*/}
-      {/*  title=""*/}
-      {/*  description=""*/}
-      {/*  features={[]}*/}
-      {/*/>*/}
-      {/*<ColorSchemeToggle />*/}
     </DotsContainer>
   );
 }
