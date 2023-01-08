@@ -3,6 +3,11 @@ Landing page for:
 - https://hireparagon.com
 - https://paragonio.github.io
 
+## Local Development
+1. Update local node to 18+
+2. `npm install`
+3. `npm run dev`
+
 ## Deployment
 1. `npm run export`
 2. `git commit -am {commit_message}'`
