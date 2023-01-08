@@ -9,9 +9,9 @@ Landing page for:
 3. `npm run dev`
 
 ## Deployment
-1. `npm run export`
-2. `git commit -am {commit_message}'`
-3. `git push origin main`
+Merging a commit to `main` branch will trigger a GitHub Actions workflow.
+
+To configure the GitHub workflow, modify the code in `.github/workflows/nextjs.yml`
 
 ## npm scripts
 
