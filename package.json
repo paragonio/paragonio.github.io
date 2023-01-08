@@ -35,6 +35,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.17.8",
+    "@mantine/hooks": "^5.10.0",
     "@next/eslint-plugin-next": "^12.1.4",
     "@storybook/react": "^6.5.15",
     "@testing-library/dom": "^8.12.0",

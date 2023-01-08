@@ -5,6 +5,7 @@ import Head from 'next/head';
 import { MantineProvider, ColorScheme, ColorSchemeProvider } from '@mantine/core';
 import { NotificationsProvider } from '@mantine/notifications';
 
+import { version } from '../package.json';
 import '../styles/globals.css';
 
 export default function App(props: AppProps & { colorScheme: ColorScheme }) {
@@ -22,6 +23,7 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
       <Head>
         <title>Paragon</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+        <meta name="version" content={version} />
         <link rel="shortcut icon" href="/favicon.svg" />
       </Head>
 
