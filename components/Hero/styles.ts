@@ -20,7 +20,7 @@ export const useStyles = createStyles((theme) => ({
   title: {
     textAlign: 'center',
     fontWeight: 900,
-    fontSize: 50,
+    fontSize: 55,
     color: theme.colorScheme === 'dark' ? theme.white : theme.black,
     marginBottom: theme.spacing.lg,
     fontFamily: `Greycliff CF, ${theme.fontFamily}`,
@@ -37,10 +37,11 @@ export const useStyles = createStyles((theme) => ({
 
   description: {
     textAlign: 'center',
+    fontSize: theme.fontSizes.xl,
 
     '@media (max-width: 520px)': {
       textAlign: 'left',
-      fontSize: theme.fontSizes.md,
+      fontSize: theme.fontSizes.lg,
     },
   },
 
