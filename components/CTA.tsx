@@ -40,7 +40,7 @@ export function CTA(props: BoxProps) {
 
   return (
     <Box className={classes.controls} {...props}>
-      <Link href="http://localhost:3000/login" className={classes.control}>
+      <Link href="https://forms.gle/awvK3ycTYaEnKNTX6" target="_blank" className={classes.control}>
         <Button
           radius="xl"
           size="md"
@@ -48,12 +48,7 @@ export function CTA(props: BoxProps) {
           fullWidth
           className={classes.button}
         >
-          Get started
-        </Button>
-      </Link>
-      <Link href="http://localhost:3000/demo" className={classes.control}>
-        <Button variant="default" radius="xl" size="md" fullWidth className={classes.button}>
-          Schedule demo
+          Join the waitlist
         </Button>
       </Link>
     </Box>
