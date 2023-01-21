@@ -40,7 +40,7 @@ export function CTA(props: BoxProps) {
 
   return (
     <Box className={classes.controls} {...props}>
-      <Link href="https://forms.gle/awvK3ycTYaEnKNTX6" className={classes.control}>
+      <Link href="https://forms.gle/awvK3ycTYaEnKNTX6" target="_blank" className={classes.control}>
         <Button
           radius="xl"
           size="md"
@@ -54,27 +54,3 @@ export function CTA(props: BoxProps) {
     </Box>
   );
 }
-/** Future buttons once backend functionality is hooked up
-
-  return (
-    <Box className={classes.controls} {...props}>
-      <Link href="http://localhost:3000/login" className={classes.control}>
-        <Button
-          radius="xl"
-          size="md"
-          rightIcon={<IconArrowRight size={16} stroke={2.5} />}
-          fullWidth
-          className={classes.button}
-        >
-          Get started
-        </Button>
-      </Link>
-      <Link href="http://localhost:3000/demo" className={classes.control}>
-        <Button variant="default" radius="xl" size="md" fullWidth className={classes.button}>
-          Schedule demo
-        </Button>
-      </Link>
-    </Box>
-  );
-  
-**/
