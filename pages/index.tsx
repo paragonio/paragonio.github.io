@@ -42,7 +42,7 @@ export default function HomePage() {
             <span className={classes.highlight}>Supercharge</span> your interviews
           </>
         }
-        description="Set your company apart by leveraging data to make informed decisions to upgrade your hiring process. Our platform provides key metrics and feedback to help interviewers present the company and themselves in the best light to candidates."
+        description="Set your company apart by utilizing data to make informed decisions to upgrade your hiring process. Our platform provides key metrics and feedback to help interviewers present the company and themselves in the best light to candidates."
       />
       <Section
         supTitle="How it works"
