@@ -32,7 +32,7 @@ export default function HomePage() {
             Recruiting is <span className={classes.highlight}>hard</span>
           </>
         }
-        description="Recruiting top talent is critical for the success of any growing company. Don't lose the opportunity of recruiting the best candidates due to providing a poor interview experience."
+        description="Recruiting top talent is critical for the success of any growing company. Don't lose the best candidates due to a poor interview experience."
       />
       {/*todo: provide infographic of how much money is spent per interview for engineers*/}
       <Section
@@ -42,7 +42,7 @@ export default function HomePage() {
             <span className={classes.highlight}>Supercharge</span> your interviews
           </>
         }
-        description="Set your company apart by leveraging data to make informed decisions to upgrade your hiring process. Our platform provides key metrics and feedback to help interviewers present the company and themselves in the best light to candidates."
+        description="Set your company apart by utilizing data to make informed decisions to upgrade your hiring process. Our platform provides key metrics and feedback to help interviewers present the company and themselves in the best light to candidates."
       />
       <Section
         supTitle="How it works"

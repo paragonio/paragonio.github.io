@@ -48,7 +48,7 @@ export function CTA(props: BoxProps) {
           fullWidth
           className={classes.button}
         >
-          Join the waitlist
+          Join waitlist
         </Button>
       </Link>
     </Box>
