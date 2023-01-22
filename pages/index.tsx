@@ -32,7 +32,7 @@ export default function HomePage() {
             Recruiting is <span className={classes.highlight}>hard</span>
           </>
         }
-        description="Recruiting top talent is critical for the success of any growing company. Don't lose the opportunity of recruiting the best candidates due to providing a poor interview experience."
+        description="Recruiting top talent is critical for the success of any growing company. Don't lose the best candidates due to a poor interview experience."
       />
       {/*todo: provide infographic of how much money is spent per interview for engineers*/}
       <Section
